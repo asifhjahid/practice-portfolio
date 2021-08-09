@@ -1,0 +1,326 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;    
+}
+.top-section{
+    display: flex;
+}
+.left-side{
+    width: 55%;
+    margin-left: 2rem;
+    padding-left:2rem ;
+    
+}
+.top-heading1{
+    font-size: 2.2rem;
+    text-align: center;
+    color: darkorange;
+    font-weight: 700;
+   
+}
+.top-heading2{
+    font-size: 2.2rem;
+    text-align: center;
+    margin: -1rem 0 0 20rem;
+}
+.name{
+    color: darkgreen;
+}
+.top-heading3{
+    font-size: 1.8rem;
+}
+.profession{
+    color: cadetblue;
+    margin-top: -.4rem;
+    font-size: 1.4rem;
+}
+.top-left-para{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    color: #6b6b6b;
+}
+.top-button{
+    background-image: linear-gradient(45deg,#58a3a3,#054646);
+     padding: .7rem 1.1rem;
+     text-decoration: none;
+     color:#ffffff;
+     text-transform: uppercase;
+     border-radius: 4px;   
+ }
+ .top-button:hover{
+    background-image: linear-gradient(45deg,#548383,#032727);
+    
+}
+ .right-side{
+    width: 40%;
+    text-align: right;
+    margin-left: 2rem;
+    padding: 0 1rem 2rem 0;
+}
+.right-img{
+    width: 100%;
+    height: 420px;
+    margin-top: 2rem;
+   
+}
+
+
+
+ /* About section  */
+
+.about-section{
+    display: flex;
+    margin-top: 3rem;
+}
+.left-img{
+    width: 70%;
+    height: 400px;
+}
+.about-right{
+    margin-top: 3rem;
+    text-align: left;
+}
+.about-heading{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.about-para{
+    text-align: left;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #6b6b6b;
+}
+.about-button{
+    background-image: linear-gradient(45deg,#79ad35,#4a770f);
+    text-decoration: none;
+    padding: .8rem 1.6rem;
+    border-radius: 4px;
+    color: #ffffff;
+    text-transform: uppercase;
+    
+}
+.about-button:hover{
+    background-image: linear-gradient(45deg,#719c38,#2d470b);
+    
+}
+
+
+/* Services Section */
+
+.service-heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 6rem 0 4rem 0;
+}
+.all-services{
+    display: flex;
+    gap: 1.3rem;
+    text-align: center;    
+}
+.service-design{
+    width: 29%;
+    margin-left: 2.6rem;
+    
+}
+.service-para{
+    padding: 0 .3rem;
+    text-align: center;
+    color: #6b6b6b;
+}
+.web-dev{
+    width: 29%;
+    padding: 0 .3rem;   
+}
+.app-dev{
+    width: 29%;
+    padding: 0 .3rem;
+}
+.service-style{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    
+}
+#design-border{
+    border-left: 6px solid;
+    border-image: linear-gradient(#df2f10,lightSalmon);
+    border-image-slice: 1;
+}
+#web-border{
+    border-left: 6px solid;
+    border-image: linear-gradient(#0e790e,#83d883);
+    border-image-slice: 1;
+}
+#app-border{
+    border-left: 6px solid;
+    border-image: linear-gradient(blue,#39ebee);
+    border-image-slice: 1;
+}
+
+
+/* Contact Section */
+
+.contact-section{
+    margin-top: 6rem;
+}
+.contact-heading{
+    text-align: center;
+}
+.contact-name{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.all-contact{
+    display: flex;
+    gap: 25rem;
+    justify-content: center;
+}
+.contact-address{
+    text-align: center;
+}
+.contact-heading{
+    text-decoration: underline;
+    text-underline-offset: .4rem;
+   
+}
+.socila-media .fa{
+    padding: 1rem;
+    font-size: 2.4rem;
+    text-decoration: none;
+}
+.fa-facebook{
+    color: #4267B2;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+.fa-linkedin{
+    color: #0077b5;
+}
+.fa-github{
+    color: #000000;
+}
+
+/* Footer Section */
+
+footer{
+    background-color: #000000;
+    width: 100%;
+    height: 10vh;
+    
+}
+.footer-para{
+    color: #ffffff;
+    text-align: center;
+    padding-top:1.4rem ;
+    
+}
+@media only screen and (max-width:768px){
+        
+        .top-section,
+        .about-section{
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+        }
+        .left-side{
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            
+        }
+        .right-side{
+            width: 100%;
+            margin-top: .6rem;
+            text-align: center;
+            justify-content: center;
+        }
+        .right-img{
+            width: 60%;
+            height: 320px;
+           
+        }
+        .top-left-para{
+            padding: 0 .6rem 0 .2rem;
+            font-size: 1rem;
+            margin-bottom: 1.2rem;
+        }
+        .top-heading1{
+            font-size: 1.8rem;
+        }
+        .top-heading2{
+          font-size: 1.8rem;
+          text-align: center;
+          margin: 0;
+            
+        }
+        .top-heading3{
+            font-size: 1.5rem;
+            margin-top: 2rem;
+        }
+        .top-button{
+            padding: .4rem .8rem;
+        }
+        .left-img{
+            width: 60%;
+            height: 300px;
+        }
+        .about-para{
+            text-align: center;
+            font-size: 1rem;
+            margin-bottom: 2rem;
+          
+        }
+        .about-button{
+           padding: .6rem 1rem;
+        }
+        .service-heading{
+            text-align: center;
+        }
+        .all-services{
+            width: 100%;
+            display: inline-block;
+            text-align: center;
+            justify-content: center;
+        }
+        .service-style{
+            width: 100%;
+            height: 40vh;
+        }
+        .service-design{
+           margin-left: 0;
+            
+        }
+        .item-name{
+            padding-top: 2rem;
+            font-size: 1.6rem;
+        }
+        .all-contact{
+            display: inline-block;
+            text-align: center;
+            justify-content: center;
+            width: 100%;
+        }
+        .socila-media{
+            margin-top: 2rem;
+        }
+        .socila-media .fa{
+            padding: .5rem;
+            font-size: 1.4rem;
+            
+        }
+       
+                
+        
+        
+
+        
+
+}
